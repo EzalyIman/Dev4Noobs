@@ -89,10 +89,13 @@ http://127.0.0.1/wordpress
 ```
 
 2. Fill in the database and username that we create earlier
-![setup1](imgs/wp_install.png)
+
+![setup1](imgs/wp_install.PNG)
 
 3. Setup the Wordpress credentials
+
 ![setup2](imgs/install.PNG)
 
 4. Now you can login to your Wordpress
-![login](imgs/login.png)
+
+![login](imgs/login.PNG)
