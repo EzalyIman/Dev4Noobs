@@ -100,4 +100,7 @@ http://127.0.0.1/wordpress
 
 ![login](imgs/login.PNG)
 
-# Congratulations, you successfully install your Wordpress
+***
+
+# **Congratulations, you successfully install your Wordpress ✨**
+
