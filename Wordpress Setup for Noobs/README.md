@@ -99,3 +99,5 @@ http://127.0.0.1/wordpress
 4. Now you can login to your Wordpress
 
 ![login](imgs/login.PNG)
+
+# Congratulations, you successfully install your Wordpress
