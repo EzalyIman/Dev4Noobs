@@ -7,10 +7,10 @@ __What you need ?__
 - Internet Connection
 
 __Objectives__
-- [Install LAMP (Linux, Apache, MySQL, PHP)]
-- [Setup Wordpress Database]
-- [Install Wordpress]
-- [Setup Wordpress]
+- [Install LAMP (Linux, Apache, MySQL, PHP)](#install-lamp)
+- [Setup Wordpress Database](#setup-wordpress-database)
+- [Install Wordpress](#install-wordpress)
+- [Setup Wordpress](#setup-wordpress)
 
 ***
 
@@ -36,8 +36,8 @@ Change root password
 sudo mysql
 ```
 ```sql
-mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; 
-mysql> exit 
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; 
+exit 
 ```
 ```sh
 mysql_secure_installation
@@ -56,12 +56,12 @@ Login into mysql and create Wordpress database
 mysql -u root -p 
 ```
 ```sql
-mysql> CREATE DATABASE wordpress_db; 
-mysql> CREATE USER 'wp_user'@'localhost' IDENTIFIED BY 'password'; 
-mysql> GRANT ALL ON wordpress_db.* TO 'wp_user'@'localhost'; 
-mysql> FLUSH PRIVILEGES; 
-mysql> SHOW DATABASES;
-mysql> exit;
+CREATE DATABASE wordpress_db; 
+CREATE USER 'wp_user'@'localhost' IDENTIFIED BY 'password'; 
+GRANT ALL ON wordpress_db.* TO 'wp_user'@'localhost'; 
+FLUSH PRIVILEGES; 
+SHOW DATABASES;
+exit;
 ```
 
 ## Install Wordpress
