@@ -9,9 +9,13 @@
 ##### Fifth Header
 
 Normal Text
+
 **Bold Text**
+
 __Bold Text__
+
 *Italic Text*
+
 ***Bold Italic Text***
 
 > Block Quoted
